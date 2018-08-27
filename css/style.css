@@ -1,0 +1,593 @@
+html,
+body {
+    margin: 0;
+    position: relative;
+    padding: 0;
+    width: 100%;
+}
+
+.font {
+    font-family: "Regular", Times, serif;
+}
+
+.content {
+    width: 90%;
+    margin: 2em auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.btn-success1 {
+    color: #fff;
+    background-color: #2c2c2c;
+    border-color: #2c2c2c;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/blackwhite12.jpg) no-repeat 0% 0%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer1 {
+    width: 100%;
+    height: 38vh;
+    background-image: url(../img/Footer.jpg);
+}
+
+
+/* CSS3 EFFECTS */
+
+
+/* FOURTH EFFECTS */
+
+.fourth-effect .mask {
+    position: absolute;
+    /* Center the mask */
+    top: 137px;
+    left: 131px;
+    cursor: pointer;
+    border-radius: 0px;
+    border-width: 50px;
+    display: inline-block;
+    border: 39px solid rgba(0, 0, 0, 0.7);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: 1;
+    visibility: visible;
+    -moz-transform: scale(4);
+    -webkit-transform: scale(4);
+    -o-transform: scale(4);
+    -ms-transform: scale(4);
+    transform: scale(4);
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.fourth-effect:hover .mask {
+    opacity: 0;
+    border: 0px solid rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+}
+
+fa.fa-facebook-official {
+    width: 100%;
+}
+
+.footer_2 {
+    display: none;
+}
+
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    color: #fff;
+}
+
+.logo {
+    position: absolute;
+    float: left;
+    margin: 16px 36px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+nav ul {
+    list-style: none;
+    /*background: rgb(81, 117, 192);*/
+    overflow: hidden;
+    color: black;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    transition: 1s;
+    /*box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);*/
+}
+
+.balu {
+    list-style: none;
+    background: rgb(81, 117, 192);
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    list-style: none;
+    background: rgb(81, 117, 192);
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.about1 {
+    list-style: none;
+    background: #fff;
+    overflow: hidden;
+    color: #fff;
+    padding: 36px;
+}
+
+.about_name {
+    font-size: 40px;
+}
+
+div.transbox {
+    margin-top: 15px;
+    padding-top: 20px;
+    font-size: 19px;
+    background-color: #00000069;
+    color: #fff;
+}
+
+.servies {
+    padding-top: 50px;
+}
+
+.edu {
+    list-style: none;
+    background: rgb(81, 117, 192);
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px 50px;
+}
+
+.edu1 {
+    list-style: none;
+    background: rgb(255, 129, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px 50px;
+}
+
+.edu2 {
+    list-style: none;
+    background: #2c2c2c;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 0px 0px 50px #000000;
+    z-index: 2;
+}
+
+.btn-Success2 {
+    background-color: black !important;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #5175C0 !important;
+}
+
+.social {
+    position: fixed;
+    margin-left: -30px;
+    padding-top: 70px;
+    z-index: 1;
+    font-size: 24px !important;
+}
+
+.facebook {
+    list-style: none;
+    background: #3b5999;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.linkedin {
+    list-style: none;
+    background: #0077B5;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.insta {
+    list-style: none;
+    background: #fb3958;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.twitter {
+    list-style: none;
+    background: #55acee;
+    overflow: hidden;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/parralex.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+img:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+*/
+
+.text {
+    font-size: 50px !important;
+}
+
+.typewriter {
+    color: #fff;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .14em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #5175C0;
+    }
+}
+
+.link-1 {
+    transition: 0.3s ease;
+    /*background: #5175C0;*/
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    /*border-top: 4px solid #5175C0;
+	border-bottom: 4px solid #5175C0;*/
+    padding: 20px 0;
+    margin: 0 20px;
+}
+
+ul li .link-1:hover,
+ul li .link-1.active a {
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+    padding: 6px 0;
+}
+
+nav.black ul {
+    background: #5175C0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 100%;
+    background: #5175C0;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    color: white !important;
+    display: none;
+    z-index: 1030;
+}
+
+
+/* ::-moz-selection {
+    Code for Firefox color: #ffabab;
+    background: #cce7f8;
+} */
+
+::selection {
+    color: #fff;
+    background: #0077B5;
+}
+
+@media(max-width:1200px) {
+    nav ul li {
+        padding: 20px 0px;
+    }
+}
+
+@media(max-width: 879px) {
+    header {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/blackwhite12.jpg) no-repeat 50% 0%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .skill {
+        display: none;
+    }
+    .resume1 {
+        text-align: center !important;
+        ;
+    }
+    .social {
+        display: none;
+    }
+    .footer01 {
+        display: none;
+    }
+    .footer2 {
+        display: block;
+    }
+    .text {
+        font-size: 35px !important;
+        margin-left: -5px;
+    }
+    .about_name {
+        font-size: 25px;
+    }
+    .text-block {
+        display: none;
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        margin-top: 16px;
+    }
+    nav ul {
+        max-height: 0px;
+        background: #5175C0;
+        text-align: center;
+        margin: 0;
+        transition: 1s;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+    nav.black ul {
+        background: #5175C0;
+    }
+    .showing {
+        max-height: 20em;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .menu-icon {
+        display: block;
+        height: 60px;
+    }
+    .fourth-effect .mask {
+        display: none;
+    }
+}
+
+@media(max-width: 580px) {
+    .about_name {
+        font-size: 25px;
+    }
+    .social {
+        display: none;
+    }
+    header {
+        width: 100%;
+        height: 100vh;
+        background: url(../img/blackwhite12.jpg) no-repeat 50% 0%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .resume1 {
+        text-align: center !important;
+        ;
+    }
+    .skill {
+        display: none;
+    }
+    .footer01 {
+        display: none;
+    }
+    .footer2 {
+        display: block;
+    }
+    .text {
+        font-size: 28px !important;
+        margin-left: -5px;
+    }
+    .text-block {
+        display: none;
+    }
+    .logo {
+        position: absolute;
+        top: 0;
+        margin-top: 16px;
+    }
+    nav ul {
+        max-height: 0px;
+        background: #5175C0;
+        text-align: center;
+        margin: 0;
+        transition: 1s;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+    nav.black ul {
+        background: #5175C0;
+    }
+    .showing {
+        max-height: 20em;
+    }
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px 20px;
+        text-align: center;
+    }
+    .menu-icon {
+        display: block;
+        height: 60px;
+    }
+    .fourth-effect .mask {
+        display: none;
+    }
+    .text {
+        margin-top: 100px;
+    }
+}
+
+.slideanim {
+    visibility: hidden;
+}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}

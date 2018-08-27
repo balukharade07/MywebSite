@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Balu Kharade</title>
+    <link rel="icon" href="ba1.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/Montserrat.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scrolls.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script type="text/javascript" src="js/animation.js"></script>
+
+
+    <style>
+        .skill * {
+            display: block;
+            border: 2px solid lightgray;
+            padding: 5px;
+            margin: 35px;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
+    <script>
+        $(document).ready(function() {
+            $("span").addClass("zoom");
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header>
+
+
+            <nav id="nav-1" class="navbar-fixed-top font">
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+
+                <div class="logo js-scroll-trigger"><a href="#">MONYA</a></div>
+                <div class="menu ">
+                    <ul class="">
+                        <li><a class="link-1 js-scroll-trigger" href="#home">About Me</a></li>
+                        <li><a class="link-1 js-scroll-trigger" href="#about">My Skills</a></li>
+                        <li><a class="link-1 js-scroll-trigger" href="#education">Education</a></li>
+                        <li><a class="link-1 js-scroll-trigger" href="#experience">Experience</a></li>
+                        <li><a class="link-1 js-scroll-trigger" href="#contact">Contact Me</a></li>
+                    </ul>
+
+                </div>
+
+
+
+            </nav>
+
+            <div class="top-left font ">
+                <p class="text  typewriter text1">I am Balu Kharade</p>
+
+                <div class="social slideanim">
+
+                    <p class="facebook zoom">Facebook</p>
+
+                    <p class="insta zoom">Instagram</p>
+                    <p class="linkedin zoom">Linkedin</p>
+                    <p class="twitter zoom">Twitter</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </header>
+
+    </div>
+
+
+
+    <section id="home" class="about1   slideanim"></section>
+
+    <div id="" class="balu about_name slideanim font">About Me</div>
+    <div class="container">
+
+
+
+        <section class="content">
+            <div class="col-md-7">
+
+
+                <p class="slideanim" style="margin-top: 20px;">
+
+
+                    <ul>
+                        <li>Hi, I am Balu Professional UI Developer and HTML5, CSS3,Bootstrap, Jquery, Javascript Developer.</li>
+                        <li>2+ years of professional experience as Angular Developer, Javascript Developer</li>
+                        <li>Extensive knowledge of current web standards, HTML5 and CSS3, Jquery along with developing front end with Cross browser compatibility. Having strong experience in responsive website design for Mobiles, Tablets and Desktops using
+                            CSS media queries. Advanced knowledge in Twitter bootstrap responsive frame work</li>
+                        <li>Working experience of GUI design for web and mobile applications</li>
+                        <li>Proficient with Sublime tex editor, Dream Weaver, Photoshop.</li>
+
+                    </ul>
+                </p>
+            </div>
+            <div class="col-md-offset-1 col-md-4 slideanim view fourth-effect">
+                <h1></h1>
+                <img src="img/balu.jpg" style="max-width: 100%; width: auto;">
+                <div class="mask"></div>
+            </div>
+
+
+
+        </section>
+
+        <form class="col-md-11 resume1 slideanim " style="text-align: right;" method="get" action="Documents/Balu_CV.docx" target="_blank">
+            <button type="submit" class="btn btn-Success2 zoom"><span class="fa fa-download"></span> Download Resume</button>
+        </form>
+
+
+
+    </div>
+
+    <section id="about" class="about1   slideanim"></section>
+    <section class="container-fluid ">
+        <div id="" class="about  about_name slideanim font">My Skills
+        </div>
+        <div class="parallax slideanim ">
+            <div>
+                <!-- <div class=" col-md-5 transbox slideanim">  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div> -->
+
+                <div style="padding:30px 0;background-color: #ffffff;">
+
+                    <script src="js/highcharts.js"></script>
+
+                    <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto"></div>
+                    <script>
+                        // Radialize the colors
+                        Highcharts.setOptions({
+                            colors: Highcharts.map(Highcharts.getOptions().colors, function(color) {
+                                return {
+                                    radialGradient: {
+                                        cx: 0.5,
+                                        cy: 0.3,
+                                        r: 0.7
+                                    },
+                                    stops: [
+                                        [0, color],
+                                        [1, Highcharts.Color(color).brighten(-0.3).get('rgb')] // darken
+                                    ]
+                                };
+                            })
+                        });
+
+                        // Build the chart
+                        Highcharts.chart('container', {
+                            chart: {
+                                plotBackgroundColor: null,
+                                plotBorderWidth: null,
+                                plotShadow: false,
+                                type: 'pie'
+                            },
+                            title: {
+                                text: 'My Skill'
+                            },
+                            tooltip: {
+                                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                            },
+                            plotOptions: {
+                                pie: {
+                                    allowPointSelect: true,
+                                    cursor: 'pointer',
+                                    dataLabels: {
+                                        enabled: true,
+                                        format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                                        style: {
+                                            color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                                        },
+                                        connectorColor: 'silver'
+                                    }
+                                }
+                            },
+                            series: [{
+                                name: 'Technology',
+                                data: [{
+                                    name: 'HTML5',
+                                    y: 30
+                                }, {
+                                    name: 'CSS3',
+                                    y: 20
+                                }, {
+                                    name: 'Javascript',
+                                    y: 20
+                                }, {
+                                    name: 'Ajax',
+                                    y: 10
+                                }, {
+                                    name: 'Jquery',
+                                    y: 10
+                                }, {
+                                    name: 'PhotoShop',
+                                    y: 10
+                                }]
+                            }]
+
+                        });
+                    </script>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <section id="education" class="about1   slideanim"></section>
+        <section class="container-fluid" id="" class="servies">
+            <div class="about  about_name slideanim font">Education
+            </div>
+            <div class="container">
+                <div class=" col-md-6 slideanim" style="margin-top: 50px">
+                    <img src="img/ba1.jpg" style="max-width: 100%; width: auto;">
+                </div>
+                <div class="col-md-6">
+
+                    <div class="edu1 zoom slideanim" style="margin-top: 45px;">
+                        <h4>MCA</h4>
+                        <p>2013-2015 <br>Solapur university Solapur </br>62.76</p>
+
+                    </div>
+                    <div class="edu zoom slideanim" style="margin-top: 35px;">
+                        <h4>BCA</h4>
+                        <p>2010-2013 <br>Tilak maharashtra vidyapeeth pune </br> 56.67%</p>
+
+
+                    </div>
+                    <div class="edu1 zoom slideanim" style="margin-top: 35px;">
+                        <h4>HSC 12th</h4>
+                        <p>2008-2010 <br>Pune board</br> 73.67%</p>
+
+                    </div>
+
+                    <div class="edu zoom slideanim" style="margin-top: 35px;">
+                        <h4>SSC 10th</h4>
+                        <p>2007-2008 <br>Pune board</br> 61.15%</p>
+
+                    </div>
+
+
+
+                </div>
+        </section>
+
+
+        <section id="experience" class="about1   slideanim"></section>
+
+
+        <section class="container-fluid" id="" class="servies">
+            <div class="about  about_name slideanim font">Work Experience
+            </div>
+            <div class="container">
+                <div class="col-md-6">
+
+                    <div class="edu zoom slideanim" style="margin-top: 30%;">
+                        <h4>Ventura Creation Pvt.Ltd</h4>
+                        <p>July-2015 To Nov-2017 <br>UI Developer<br>Pune</p>
+
+                    </div>
+                    <div class="edu1 zoom slideanim" style="margin-top: 55px;">
+                        <h4>Ventura Technologies Pvt.Ltd</h4>
+                        <p>Nov-2017 To Up TO <br>UI Developer<br>Pune</p>
+
+                    </div>
+                </div>
+                <div class=" col-md-6 slideanim" style="margin-top: 50px">
+                    <img src="img/IMG_20170203_110132.jpg" style="max-width: 100%; height: 500px; width: auto;">
+                </div>
+
+        </section>
+
+    </section>
+
+
+
+
+    <section id="contact" class="about1   slideanim"></section>
+
+
+    <section class="container-fluid" id="" class="servies">
+        <div class="about  about_name slideanim font">Contact Me
+        </div>
+        <div class="container">
+            <form action="server.php">
+                <section id="" style="margin-top:10px;" class="about1   slideanim"></section>
+                <div class="col-md-6 slideanim">
+
+                    <div class="form-group">
+                        <label for="fname">Frist Name:</label>
+                        <input type="text" class="form-control required" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" class="form-control required" id="pwd">
+                    </div>
+
+                </div>
+                <div class=" col-md-6 slideanim">
+
+                    <div class="form-group">
+                        <label for="lname">Email:</label>
+                        <input type="email" class="form-control required" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Phone:</label>
+                        <input type="number" class="form-control required" id="phone">
+                    </div>
+
+                </div>
+                <div class="form-group col-md-12 slideanim">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+
+                <div class="col-md-12 slideanim">
+                    <button type="button" class="btn btn-success1">Success</button>
+                </div>
+
+            </form>
+    </section>
+    <section id="" style="margin-top:10px;" class="about1   slideanim"></section>
+    <div class="container">
+        <div class="col-md-6">
+            <!--  <div id="map" style="width:100%;height:400px;"></div> -->
+
+            <div class="slideanim" style="width: 100%"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242118.14199780513!2d73.72287958255833!3d18.52456485877541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C+Maharashtra%2C+India!5e0!3m2!1sen!2sus!4v1531290985502"
+                    width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div><br />
+        </div>
+        <div class="col-md-6">
+
+            <div class="edu zoom slideanim">
+                <h4>Address</h4>
+                <p>Flat No 407,DhayariPhata, <br>Pune, pin-code 411041<br></p>
+
+            </div>
+            <div class="edu1 zoom slideanim" style="margin-top: 55px;">
+                <h4>Phone/Email</h4>
+                <p>+91 727 632 9991 <br><a href="mailto:kharadeb999@gmail.com">kharadeb999@gmail.com</a><br></p>
+
+            </div>
+        </div>
+
+
+        </section>
+
+
+
+    </div>
+
+    <section id="" style="margin-top:10px;" class="about1   "></section>
+
+    <section class="container-fluid footer1">
+        <footer class="container edu2" style="margin-top:70px; color: #ffffff;">
+
+            <div class="col-md-4 slideanim">
+                <div style=" font-size: 18px;">
+                    <p><a href="#home">Home</a><br><a href="#about">About Us</a><br><a href="#education">Education</a><br><a class="" href="#experience">Experience</a><br><a href="#contact">Contact Us</a></p>
+                </div>
+            </div>
+            <div class="col-md-4 slideanim">
+                <h4>Address</h4>
+                <p>Kamathi(BK),Tel:-Mohol <br>Dist:-Solapur<br>Pin-code:-413253</p>
+
+            </div>
+            <div class="col-md-4 slideanim">
+                <h4>Balu Kharade</h4>
+                <div>
+                    Hi, I am Balu Professional UI Designer and HTML5, CSS3,Bootstrap, Jquery, Javascript Developer. And also Angular Developer
+                </div>
+            </div>
+
+
+
+        </footer>
+
+    </section>
+
+
+
+
+</body>
+<!-- <script type="text/javascript" src="js/scrolling.js"></script> -->
+<script type="text/javascript">
+    scroller.init();
+</script>
+
+</html>
